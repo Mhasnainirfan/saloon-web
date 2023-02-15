@@ -1,0 +1,51 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(image.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200hv;
+}
+.header{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    color: beige;
+    margin: 0px;
+}
+.logo {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: -60px;
+}
+    ul {
+        display: flex;
+        margin-left: 70px;
+        margin-top: 0px;
+        font-style: oblique;
+    }
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(231, 219, 219);
+}
+a:hover {
+    color: rgb(176, 207, 0);
+    text-decoration: underline;
+}
+h1 {
+    font-size: 40px;
+    margin-left: 160px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(248, 244, 244);
+}
+ button {
+    width: 50%;
+    margin: 10% 0 0 30%;
+}
